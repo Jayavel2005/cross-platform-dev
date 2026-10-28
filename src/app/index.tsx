@@ -6,15 +6,21 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <LittleLemonHeader />
+      <View style={styles.mainContent}>
+    {/* Main screen content */}
+  </View>
       <Footer/>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container : {
-    flex : 1,
-    justifyContent : "space-between",
-    backgroundColor : "#2e3440",
-  }
+  container: {
+    flex: 1,
+  },
+
+  mainContent: {
+    flex: 1,
+    backgroundColor: "#495E57",
+  },
 });
