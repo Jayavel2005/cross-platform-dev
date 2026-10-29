@@ -5,7 +5,7 @@ import { View, Text, StyleSheet} from "react-native";
 const Footer = () => {
     return (
         <View style={styles.footer}>
-            <Text style={styles.text}>All Rights reserved by Little Lemon 20222.</Text>
+            <Text style={styles.text}>All Rights reserved by Little Lemon 2022.</Text>
         </View>
     );
 }
