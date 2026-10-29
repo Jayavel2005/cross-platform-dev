@@ -18,13 +18,13 @@ const styles = StyleSheet.create({
     }
     ,
     title : {
-        color : "white",
+        color : "black",
         textAlign : "center",
         fontSize : 40,
     },
     description : {
         marginTop : 30,
-        color : "white",
+        color : "black",
         fontSize : 25,
         textAlign : 'center',
     }
